@@ -1,0 +1,8 @@
+{
+  "WindowsAppDriver": "C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe",
+  "ApplicationWorkingDirectory": "C:\\Program Files\\FoodBu\\",
+  "Application": "FoodBu_Project.exe",
+  "PlatformName": "Windows",
+  "DeviceName": "WindowsPC",
+  "WindowsApplicationDriverUrl": "http://127.0.0.1:4723"
+}

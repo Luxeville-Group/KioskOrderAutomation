@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.UITest\\Foodbu.Testing.UITest.csproj": {}
+  },
+  "projects": {
+    "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.Common\\Foodbu.Testing.Common.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.Common\\Foodbu.Testing.Common.csproj",
+        "projectName": "Foodbu.Testing.Common",
+        "projectPath": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.Common\\Foodbu.Testing.Common.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.UITest\\Foodbu.Testing.UITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.UITest\\Foodbu.Testing.UITest.csproj",
+        "projectName": "Foodbu.Testing.UITest",
+        "projectPath": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.UITest\\Foodbu.Testing.UITest.csproj",
+        "packagesPath": "C:\\Users\\mhaid\\.nuget\\packages\\",
+        "outputPath": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.UITest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mhaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.Common\\Foodbu.Testing.Common.csproj": {
+                "projectPath": "D:\\HAIDER_WS\\FRMS_WS\\Foodbu Restaurant Management System\\Foodbu.Testing.Common\\Foodbu.Testing.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
